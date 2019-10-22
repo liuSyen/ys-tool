@@ -1,8 +1,8 @@
 {
   "name": "ys-tool",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "",
-  "keywords": [],
+  "keywords": ["宇石前端工具库"],
   "main": "dist/ys-tool.umd.js",
   "module": "dist/ys-tool.es5.js",
   "typings": "dist/types/ys-tool.d.ts",
