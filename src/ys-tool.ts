@@ -1,10 +1,7 @@
 import deepClone from './deepClone';
 
-class Ystool {
-  public deepClone: Function
-  constructor () {
-    this.deepClone = deepClone
-  }
+const Ystool = {
+  deepClone: deepClone
 }
 
 export default Ystool
