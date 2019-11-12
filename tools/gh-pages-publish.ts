@@ -26,6 +26,6 @@ exec('git config user.name "sanye"')
 exec('git config user.email "liubingjian@hzyushi.cn"')
 exec('git commit -m "docs(docs): update gh-pages"')
 exec(
-  `git push --force --quiet "https://${ghToken}@${repository}" master:gh-pages`
+  `git push --force --quiet "https://github.com/liuSyen/ys-tool.git" master:gh-pages`
 )
 echo("Docs deployed!!")
