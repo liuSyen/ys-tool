@@ -1,4 +1,4 @@
-function deepClone (val:object):object {
+function deepClone<T> (val: T) {
   val = JSON.parse(JSON.stringify(val))
   return val
 }
