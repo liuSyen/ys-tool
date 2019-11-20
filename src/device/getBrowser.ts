@@ -42,4 +42,4 @@ function getBroweser(): string {
   return 'Unkonwn'
 }
 
-module.exports = getBroweser
+export default getBroweser

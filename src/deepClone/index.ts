@@ -9,4 +9,4 @@ function deepClone<T>(val: T) {
   return val
 }
 
-module.exports = deepClone
+export default deepClone

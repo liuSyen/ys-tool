@@ -1,10 +1,10 @@
-let deepClone = require('./deepClone')
-let arrayEqual = require('./arrayEqual')
-let getCookie = require('./cookie/getCookie')
-let setCookie = require('./cookie/setCookie')
-let removeCookie = require('./cookie/removeCookie')
-let getBroweser = require('./device/getBrowser')
-let getOS = require('./device/getOs')
+import deepClone from './deepClone'
+import arrayEqual from './arrayEqual'
+import getCookie from './cookie/getCookie'
+import setCookie from './cookie/setCookie'
+import removeCookie from './cookie/removeCookie'
+import getBroweser from './device/getBrowser'
+import getOS from './device/getOs'
 
 const Ystool = {
   deepClone: deepClone,

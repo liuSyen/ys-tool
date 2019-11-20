@@ -9,4 +9,4 @@ function removeCookie(name: string): void {
   setCookies(name, '1', -1)
 }
 
-module.exports = removeCookie
+export default removeCookie

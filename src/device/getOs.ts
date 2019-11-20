@@ -19,4 +19,4 @@ function getOS() {
   if (/linux/i.test(appVersion)) return 'linux'
 }
 
-module.exports = getOS
+export default getOS

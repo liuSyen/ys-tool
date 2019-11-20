@@ -14,4 +14,4 @@ function arrayEqual(arr1: [], arr2: []): boolean {
   return true
 }
 
-module.exports = arrayEqual
+export default arrayEqual
